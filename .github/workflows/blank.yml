@@ -1,7 +1,8 @@
 name: '$(Date:yyyyMMdd)$(Rev:.rr)'
-jobs:
-  - job: build_markdown_content
-    displayName: 'Build Markdown Content'
+ jobs:
+    :
+    - job: build_markdown_content
+      displayName: 'Build Markdown Content'
     workspace:
       clean: all
     pool:
